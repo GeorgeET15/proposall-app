@@ -19,7 +19,7 @@ const ProposalForm = () => {
       setTimeout(() => {
         setLoading(false);
         setIsModalOpen(false);
-        setLink(`${window.location.origin}/proposal/${id}`);
+        setLink(`https://proposeall.netlify.app/proposal/${id}`);
       }, 3000);
     }
   };

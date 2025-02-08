@@ -10,15 +10,3 @@ body {
 .pixel-font-press {
   font-family: "Press Start 2P", cursive;
 }
-
-.pixel-font-vt323 {
-  font-family: "VT323", monospace;
-}
-
-.pixel-font-pixelify {
-  font-family: "Pixelify Sans", sans-serif;
-}
-
-.pixel-font-custom {
-  font-family: "CustomPixel", sans-serif;
-}

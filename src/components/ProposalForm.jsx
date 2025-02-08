@@ -103,7 +103,7 @@ const ProposalForm = () => {
         <p>
           View it on{" "}
           <a
-            href="https://github.com/your-repo"
+            href="https://github.com/GeorgeET15/proposall-app"
             target="_blank"
             rel="noopener noreferrer"
             style={styles.githubLink}

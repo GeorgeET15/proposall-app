@@ -72,9 +72,15 @@ const ProposalForm = () => {
         />
         <button
           type="submit"
-          disabled={loading}
-          style={styles.button}
-          onClick={handleSubmit}
+          disabled={loading || !name.trim() || !message.trim()}
+          style={{
+            ...styles.button,
+            opacity: loading || !name.trim() || !message.trim() ? 0.5 : 1,
+            cursor:
+              loading || !name.trim() || !message.trim()
+                ? "not-allowed"
+                : "pointer",
+          }}
         >
           {loading ? "Loading..." : "Generate Link"}
         </button>

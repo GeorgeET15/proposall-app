@@ -1,0 +1,24 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #9dbdfb, #d9c4fa);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.pixel-font-press {
+  font-family: "Press Start 2P", cursive;
+}
+
+.pixel-font-vt323 {
+  font-family: "VT323", monospace;
+}
+
+.pixel-font-pixelify {
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+.pixel-font-custom {
+  font-family: "CustomPixel", sans-serif;
+}
